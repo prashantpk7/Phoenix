@@ -52,8 +52,8 @@ public class UnoCardTest {
     @Test
     public void testGetFaceBoundary() {
         System.out.println("getFace");
-        UnoCard instance = new UnoCard(1,"Red"); //randomly generated uno Card
-        String expResult = "[Red 1]";
+        UnoCard instance = new UnoCard(0,"Red"); //randomly generated uno Card
+        String expResult = "[Red 0]";
         String result = instance.getFace();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
